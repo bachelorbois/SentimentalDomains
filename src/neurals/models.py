@@ -28,7 +28,6 @@ from colorama import Fore
 from talos.metrics.keras_metrics import fmeasure_acc
 
 # Custom libraries
-from ..utils import mapcount  # , start_bert, stop_bert
 
 BERT_OUT_DIM = 768
 COLORS = [Fore.RED, Fore.BLUE, Fore.GREEN,
