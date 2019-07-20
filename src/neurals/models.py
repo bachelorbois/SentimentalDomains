@@ -9,17 +9,17 @@ from random import choice
 from abc import ABC, abstractmethod
 
 # Third-party libraries
-from keras.layers import Embedding, Dense, Input, Flatten, LeakyReLU, Dropout, RepeatVector
-from keras.layers import Conv1D, MaxPooling1D, LSTM, GRU, Layer, BatchNormalization, Reshape
-from keras.layers import Concatenate, GlobalAveragePooling1D, TimeDistributed, Lambda
-from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D, Average, CuDNNGRU, CuDNNLSTM
-from keras.regularizers import l2
-from keras.constraints import MinMaxNorm, MaxNorm
-from keras.models import Model, clone_model, load_model
-from keras.callbacks import TensorBoard, EarlyStopping
-from keras.optimizers import Adam
-from keras.utils import Sequence, plot_model
-from keras import backend as K
+from tensorflow.keras.layers import Embedding, Dense, Input, Flatten, LeakyReLU, Dropout, RepeatVector
+from tensorflow.keras.layers import Conv1D, MaxPooling1D, LSTM, GRU, Layer, BatchNormalization, Reshape
+from tensorflow.keras.layers import Concatenate, GlobalAveragePooling1D, TimeDistributed, Lambda
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D, Average
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.constraints import MinMaxNorm, MaxNorm
+from tensorflow.keras.models import Model, clone_model, load_model
+from tensorflow.keras.callbacks import TensorBoard, EarlyStopping
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import Sequence, plot_model
+from tensorflow.keras import backend as K
 import numpy as np
 from tqdm import tqdm
 import tensorflow as tf
