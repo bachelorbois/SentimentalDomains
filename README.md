@@ -5,10 +5,10 @@
 
 ## TODO
 
-[ ] Clean up code  
-[ ] Move over preproc  
-[ ] Do prettier preproc  
-[ ] Twitter GloVe  
-[ ] More robust testing  
-[ ] More tests  
-[ ] Multiple runs per config  
+- [ ] Clean up code  
+- [ ] Move over preproc  
+- [ ] Do prettier preproc  
+- [ ] Twitter GloVe  
+- [ ] More robust testing  
+- [ ] More tests  
+- [ ] Multiple runs per config  
