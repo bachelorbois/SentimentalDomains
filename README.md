@@ -10,6 +10,7 @@
 - [ ] Move over preproc  
 - [ ] Do prettier preproc  
 - [ ] Twitter GloVe  
+- [ ] MongoDB
 - [ ] More robust testing  
 - [ ] More tests  
 - [ ] Multiple runs per config  
