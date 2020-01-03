@@ -1,26 +1,3 @@
 # Cross-Domain Sentiment Classification using Vector Embedded Domain Representations
 
-## TODO
-
-- [ ] Find the focus of the paper  
-- [ ] Clean up code  
-- [ ] Move over preproc  
-- [ ] Do prettier preproc  
-- [ ] Twitter GloVe  
-- [ ] MongoDB
-- [ ] More robust testing  
-- [ ] More tests  
-- [ ] Multiple runs per config  
-
-## Ideas for focus areas
-
-- Beat state of the art in some way (Compute performance?)
-- Specialized cases (Scenarios - Data quality)
-- Focus on embeddings (Only look at the embeddings and the space that is created)
-
-
-## Experiments
-
-- Ablation studies (Mainly domains)
-- Hyperparameter optimization!
-
+Rasmussen, N. F., Jensen, K. N., Placenti, M., & Wang, T. (2019, September). Cross-Domain Sentiment Classification using Vector Embedded Domain Representations. In DL4NLP 2019. Proceedings of the First NLPL Workshop on Deep Learning for Natural Language Processing, 30 September, 2019, University of Turku, Turku, Finland (No. 163, pp. 48-57). Linköping University Electronic Press.
